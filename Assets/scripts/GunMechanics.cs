@@ -16,10 +16,12 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if((OVRInput.Get(OVRInput.RawButton.RIndexTrigger))){
             Transform BulletTrans = Instantiate(Bullet,BulletHolder.position,BulletHolder.rotation);
             Rigidbody BulletRB = BulletTrans.GetComponent<Rigidbody>();
             BulletRB.AddRelativeForce(Vector3.forward*BulletSpeed);
         } 
+        */
     }
 }
